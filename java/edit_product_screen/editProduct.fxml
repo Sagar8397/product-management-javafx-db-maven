@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller="edit_product_screen.EditProductScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="638.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffbb00" height="70.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="640.0" />
+      <Button fx:id="searchButton" layoutX="549.0" layoutY="92.0" mnemonicParsing="false" onAction="#showSearchButton" prefHeight="21.0" prefWidth="63.0" style="-fx-background-color: #3CB371;" text="Search" textFill="WHITE">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="35.0" layoutY="94.0" text="Product To Edit Product" />
+      <TextField fx:id="productToEditProduct" layoutX="255.0" layoutY="89.0" prefHeight="21.0" prefWidth="273.0" />
+      <Button fx:id="saveButton" layoutX="366.0" layoutY="373.0" mnemonicParsing="false" onAction="#showSaveButton" prefHeight="21.0" prefWidth="96.0" style="-fx-background-color: #3CB371;" text="Save" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="newProductQuentity" layoutX="255.0" layoutY="272.0" prefHeight="9.0" prefWidth="273.0" />
+      <TextField fx:id="newProductPrice" layoutX="255.0" layoutY="226.0" prefHeight="0.0" prefWidth="273.0" />
+      <TextField fx:id="newProductCategory" layoutX="255.0" layoutY="322.0" prefHeight="0.0" prefWidth="273.0" />
+      <TextField fx:id="newProductId" layoutX="255.0" layoutY="183.0" prefHeight="12.0" prefWidth="273.0" />
+      <TextField fx:id="newProductName" layoutX="255.0" layoutY="135.0" prefHeight="21.0" prefWidth="273.0" />
+      <Label layoutX="36.0" layoutY="277.0" text="New Product Quentity" />
+      <Label layoutX="38.0" layoutY="231.0" text="New Product Price" />
+      <Label layoutX="35.0" layoutY="327.0" text="New Product Category" />
+      <Label layoutX="35.0" layoutY="188.0" text="New Product Id" />
+      <Label layoutX="34.0" layoutY="140.0" text="New Product Name" />
+      <Label layoutX="19.0" layoutY="9.0" text="Edit Product">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="493.0" layoutY="17.0" text="Sagar (Admin)">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Circle fill="#a121ff" layoutX="462.0" layoutY="32.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="closeButton" layoutX="153.0" layoutY="373.0" mnemonicParsing="false" onAction="#showCloseButton" prefHeight="21.0" prefWidth="96.0" text="Close" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="453.0" layoutY="8.0" text="S" textFill="WHITE">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

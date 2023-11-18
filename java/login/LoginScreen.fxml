@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginScreenController">
+   <children>
+      <Button fx:id="LoginButton" layoutX="304.0" layoutY="275.0" mnemonicParsing="false" onAction="#Login" prefHeight="39.0" prefWidth="231.0" text="Login" />
+      <Label layoutX="375.0" layoutY="74.0" prefHeight="57.0" prefWidth="88.0" text="Login">
+         <font>
+            <Font name="Sitka Text" size="29.0" />
+         </font>
+      </Label>
+      <TextField fx:id="LoginName" layoutX="308.0" layoutY="153.0" prefHeight="39.0" prefWidth="231.0" promptText="Login Name" />
+      <TextField fx:id="Password" layoutX="308.0" layoutY="214.0" prefHeight="39.0" prefWidth="231.0" promptText="Password" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffac00" height="400.0" stroke="BLACK" strokeType="INSIDE" width="242.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="36.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./Screenshot%202023-10-31%20182645.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
